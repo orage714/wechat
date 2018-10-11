@@ -1,0 +1,43 @@
+<view class='divider'></view>
+<view class='cell'>
+   
+    <navigator class='cell-item arrow'>
+        <text>表单</text>
+    </navigator>
+    <navigator class='cell-item arrow'>
+      <input></input>
+    </navigator>
+    <navigator class='cell-item arrow'>
+       <input password></input>
+    </navigator>
+     
+</view>
+<view class='devied'></view>
+<view class='cell'>
+  <navigator class='cell-item arrow'>其它表单</navigator>
+  <navigator class='cell-item '>
+    <checkbox-group>
+        <checkbox></checkbox>
+        <checkbox></checkbox>
+    </checkbox-group>
+  </navigator>
+  <navigator class='cell-item '>
+    <radio-group bindchange="radiovalue" data-index="2">
+          <radio value="man"></radio>男
+          <radio value="wuman"></radio>女
+          <radio></radio>密码
+    </radio-group>
+    
+    <switch color="#f60" checked></switch>
+  </navigator>
+</view>
+<view>
+{{foo.sum(1,2)}}
+</view>
+<wxs module="foo">
+module.exports={
+  sum:function(a,b){
+  return a+b
+  }
+}
+</wxs>

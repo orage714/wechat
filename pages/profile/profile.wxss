@@ -1,0 +1,18 @@
+
+.avatar{
+  background-color: #f60;
+  height:400rpx;
+
+}
+.avatar image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.info{
+  font-size: 14px;
+}
+.item-bor{
+  border-bottom:1rpx solid #eee;
+  padding: 20rpx 30rpx; 
+}

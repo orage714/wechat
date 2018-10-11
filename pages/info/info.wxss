@@ -1,0 +1,32 @@
+page{
+  background: #f1f1f1;
+
+}
+.card-wrap{
+ background:#fff;
+ border-radius: 20rpx;
+ margin:60rpx 20rpx 0 20rpx;
+ padding:20rpx 30rpx;
+ border:1rpx solid #999;
+ display: flex;
+ flex-direction: column;
+}
+.card-wrap image{
+  width:100%;
+  height:300rpx;
+  padding-top: 20rpx;
+}
+.title{
+  font-size: 16px;
+
+}
+.info,
+.timer{
+  color:#ccc;
+  font-size: 14px;
+  padding-top: 20rpx;
+}
+.bord{
+  border-bottom:1rpx solid #ccc;
+  padding: 15rpx 0;
+}

@@ -1,0 +1,18 @@
+<view class="shop"
+wx:for="{{ shopList }}"
+wx:key="{{id}}"
+>
+  <image  class="shop-img" src="{{ item.images[0]}}" mode="aspectFill"></image>
+  <view class="info">
+    <text class="title ell">{{item.name}}</text>
+    <text>电话:{{item.phone}}</text>
+    <text class="ell">地址：{{item.address}}</text>
+    <text>营业时间：</text>
+  </view>
+  <view class="shop-star">
+    <text class="star-after">★★★★★</text>
+    <text class="star-before" style='width:{{item.score}}%'>★★★★★</text>
+  </view>
+</view>
+<view class="loadmore loading" wx:if="{{hasMore}}">加载更多…</view>
+<view class="loadmore" wx:else>全部加载完毕</view>

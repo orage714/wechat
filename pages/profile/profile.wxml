@@ -1,0 +1,21 @@
+<view class="avatar center">
+  <image src="/assets/images/avatar.png"></image>
+</view>
+<view class="devied"></view>
+<view class="info  item-bor">
+  <text>个人资料</text>
+</view>
+<view class="info  arr item-bor">
+  <text>我的优惠卷</text>
+</view>
+<view class="devied"></view>
+<view class="info  item-bor">
+  <text>常见问题</text>
+</view>
+<view class="info  arr item-bor">
+  <text>使用条款</text>
+</view>
+<view class="devied"></view>
+<view class="info  item-bor">
+  <text>设置</text>
+</view>

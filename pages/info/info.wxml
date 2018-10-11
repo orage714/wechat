@@ -1,0 +1,18 @@
+<view class="card-wrap" wx:for="{{infoList}}" wx:key="id">
+  <text class="title">{{item.tiitle}}</text>
+  <text class="timer bord">{{item.timer}}</text>
+  <view class="img-wrap"> 
+    <image src="{{item.image}}" mode="aspectFill"></image>
+  </view>
+  <text class="title2 bord">{{item.title2}}</text>
+    <text class="info arr">查看详情</text>  
+</view>
+<!-- <view class="card-wrap">
+  <text class="title">标题1111</text>
+  <text class="timer bord">2017-10-11</text>
+  <view class="img-wrap"> 
+    <image src="https://m.360buyimg.com/mobilecms/s1125x549_jfs/t14776/179/342502886/126892/bc618b9e/5a2a317dN2c57e7b0.jpg!q70.jpg" mode="aspectFill"></image>
+  </view>
+  <text class="title2 bord">越努力，越幸运~~~</text>
+    <text class="info arr">查看详情</text>  
+</view> -->
